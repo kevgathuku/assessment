@@ -26,7 +26,7 @@ class App extends Component {
       return (
         <tr key={data.id}>
           <th><img className="avatar" src={data.avatar_url} alt="avatar"/>{}</th>
-          <th>{data.login}</th>
+          <th><a href={data.login}>{data.login}</a></th>
         </tr>
       )
     };
