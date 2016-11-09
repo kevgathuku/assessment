@@ -53,3 +53,7 @@ jspm_packages
 # Github Responses (JSON)
 *.json
 !package.json
+!bower.json
+
+# Bower dependencies
+public/lib/

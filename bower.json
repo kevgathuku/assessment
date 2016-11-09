@@ -1,0 +1,21 @@
+{
+  "name": "andela-org-users",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kevin Ndung'u <kevgathuku@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "^2.0.4"
+  }
+}
