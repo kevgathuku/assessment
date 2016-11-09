@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     let renderUserNames = function(data) {
       return (
-        <tr key={data.login}>
+        <tr key={data.id}>
           <th><img className="avatar" src={data.avatar_url} alt="avatar"/>{}</th>
           <th>{data.login}</th>
         </tr>
